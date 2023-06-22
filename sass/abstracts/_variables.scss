@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #6157ab;
+  --color-primary-light: #eceaf8;
+  --color-primary-light-1: #c7c1f3;
+  --color-primary-darker: #4a4385;
+  --color-primary-darker-2: #323a5b;
+  --color-primary-darker-3: #b2a9ef;
+  --color-primary-darker-4: #7569cf;
+
+  --color-primary-light-2: #574d9c;
+  --color-primary-light-3: #e3e6f9;
+
+  --color-grey-1: #636769;
+  --color-grey-2: #96979a;
+  --color-grey-3: #363b3d;
+  --color-grey-4: #f5f4f2;
+  --color-grey-5: #333;
+  --color-grey-6: #7a858a;
+  --color-grey-7: #aab8bf;
+  --color-grey-8: #c9d3d9;
+  --color-grey-9: #1e2224;
+  --color-grey-10: #c9c9c9;
+  --color-grey-11: #636769;
+  --color-grey-12: #2b2b2b;
+  --color-white: #fff;
+  --color-black: #000;
+}
+
+// FONT
+$font-primary: 'Roboto', sans-serif;
+
+// RESPONSIVE BREAKPOINT
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px

@@ -1,0 +1,45 @@
+.section-empower {
+  padding: 7.2rem 0 0;
+  background-color: var(--color-grey-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    // padding: 0rem 3rem;
+    padding: 0;
+  }
+}
+
+.section-testimonials {
+  padding: 0 6rem;
+  background-color: var(--color-grey-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    // padding: 0rem 3rem;
+    padding: 0;
+  }
+}
+
+.section-solution {
+  padding: 0 6rem;
+  border-radius: 0 0 1.9rem 1.9rem;
+  background-color: var(--color-grey-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    // padding: 0rem 3rem;
+    padding: 0;
+  }
+}
+
+.section-app {
+  padding-top: 8.3rem;
+  background-color: var(--color-grey-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    // padding: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+footer {
+  padding: 5.9rem 0 8.1rem 0;
+  background-color: var(--color-black);
+}

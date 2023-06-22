@@ -1,0 +1,27 @@
+.u-margin-bottom-large {
+  margin-bottom: 11.9rem !important;
+
+  @media only screen and (max-width: $bp-large) {
+    margin-bottom: 6rem !important;
+  }
+}
+
+.u-margin-bottom-biggest {
+  margin-bottom: 6.7rem;
+}
+
+.u-margin-bottom-biggest-1 {
+  margin-bottom: 6.3rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 4.7rem !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 3.5rem !important;
+}
+
+.u-margin-bottom-smallest {
+  margin-bottom: 3.1rem !important;
+}

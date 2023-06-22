@@ -1,0 +1,61 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    transition: all 0.2s;
+  }
+
+  &:hover,
+  &:active {
+    background-color: var(--color-primary-darker);
+  }
+}
+
+.btn-text {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.empower__tab {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2.32px;
+  color: var(--color-grey-6);
+  padding: 1.5rem 2.5rem;
+  border-radius: 6.8px;
+  border: 1px solid var(--color-grey-7);
+  cursor: pointer;
+
+  &--active {
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+    border: 1px solid var(--color-primary);
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    width: 100%;
+  }
+}
+
+.btn-white {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+  padding: 1.6rem 2.5rem;
+  color: var(--color-primary-light-2);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary-light-2);
+  border-radius: 5px;
+  cursor: pointer;
+}

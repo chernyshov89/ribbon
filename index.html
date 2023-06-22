@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Ribbon</title>
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item nav__item--active">
+            <a href="#section--1" class="nav__link">Agents</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Homebuyers</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Resources</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Log In</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__ link btn">Sign Up Now</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <svg class="icon-mobile-nav" id="open">
+          <use xlink:href="img/sprite.svg#icon-menu"></use>
+        </svg>
+        <svg class="icon-mobile-nav" id="close">
+          <use xlink:href="img/sprite.svg#icon-cancel"></use>
+        </svg>
+      </button>
+
+      <div class="header__title">
+        <h1 class="heading-primary u-margin-bottom-big">
+          Providing certainty on the journey to homeownership.
+        </h1>
+        <p class="header__text u-margin-bottom-small">
+          Guarantee your home closes with cash-backed, contingency-free offers
+          for buyers, sellers, their agents, and loan officers.
+        </p>
+        <div class="header__btn-box u-margin-bottom-large">
+          <a href="#!" class="btn">Sign Up Now</a>
+          <a href="#!" class="btn-text btn--scroll-to">Learn More</a>
+        </div>
+        <h4 class="heading-4 testimonials__featuredin-text">Featured in</h4>
+        <div class="header__featuredin-logos">
+          <img src="./img/techcrunch-logo.png" alt="Feature In Logo 1" />
+          <img src="./img/allthings-logo.png" alt="Feature In Logo 2" />
+          <img src="./img/wsj-logo.png" alt="Feature In Logo 3" />
+          <img src="./img/usatoday-logo.png" alt="Feature In Logo 4" />
+          <img src="./img/inman-logo.png" alt="Feature In Logo 4" />
+        </div>
+        <img
+          src="./img/hero-image.png"
+          alt="header image"
+          class="header__img"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="section-empower" id="section--1">
+        <div class="empower">
+          <h2 class="heading-secondary u-margin-bottom-big">Who we empower</h2>
+          <div class="empower__tab-container">
+            <button
+              class="empower__tab empower__tab--1 empower__tab--active"
+              data-tab="1"
+            >
+              Buyer's agents
+            </button>
+            <button class="empower__tab empower__tab--2" data-tab="2">
+              Buyers
+            </button>
+            <button class="empower__tab empower__tab--3" data-tab="3">
+              Listing agents
+            </button>
+            <button class="empower__tab empower__tab--4" data-tab="4">
+              Sellers
+            </button>
+            <button class="empower__tab empower__tab--5" data-tab="5">
+              Loan officers
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="empower__content empower__content--1 empower__content--active"
+        >
+          <div class="empower__img">
+            <img src="./img/house.png" alt="pair near house" />
+          </div>
+          <div class="empower__text--container">
+            <p class="empower__buyers-text">Buyer's agents</p>
+            <h3 class="heading-tertiary empower__heading">
+              Give your buyers the certainty of cash
+            </h3>
+            <p class="empower__text">
+              Waive common contingencies, including the home-sale contingency,
+              to allow your buyers to make their strongest offer in any market.
+            </p>
+            <a href="#!" class="btn empower__btn">Get Certified Today</a>
+          </div>
+
+          <div class="empower__icon--container">
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-icon.png" alt="dollar-icon" />
+              </div>
+              <p>Keep Your Commission</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/pencil-icon.png" alt="pencil-icon" />
+              </div>
+              <p>Write More Winning Offers</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-in-icon.png" alt="dollar-in-icon" />
+              </div>
+              <p>Guaranteed to Close</p>
+            </div>
+          </div>
+        </div>
+        <div class="empower__content empower__content--2">
+          <div class="empower__img">
+            <img src="./img/house.png" alt="pair near house" />
+          </div>
+          <div class="empower__text--container">
+            <p class="empower__buyers-text">Buyers</p>
+            <h3 class="heading-tertiary empower__heading">Tab 2</h3>
+            <p class="empower__text">
+              Waive common contingencies, including the home-sale contingency,
+              to allow your buyers to make their strongest offer in any market.
+            </p>
+            <a href="#!" class="btn empower__btn">Get Certified Today</a>
+          </div>
+
+          <div class="empower__icon--container">
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-icon.png" alt="dollar-icon" />
+              </div>
+              <p>Keep Your Commission</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/pencil-icon.png" alt="pencil-icon" />
+              </div>
+              <p>Write More Winning Offers</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-in-icon.png" alt="dollar-in-icon" />
+              </div>
+              <p>Guaranteed to Close</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="empower__content empower__content--3">
+          <div class="empower__img">
+            <img src="./img/house.png" alt="pair near house" />
+          </div>
+          <div class="empower__text--container">
+            <p class="empower__buyers-text">Listing Agents</p>
+            <h3 class="heading-tertiary empower__heading">Tab 3</h3>
+            <p class="empower__text">
+              Waive common contingencies, including the home-sale contingency,
+              to allow your buyers to make their strongest offer in any market.
+            </p>
+            <a href="#!" class="btn empower__btn">Get Certified Today</a>
+          </div>
+
+          <div class="empower__icon--container">
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-icon.png" alt="dollar-icon" />
+              </div>
+              <p>Keep Your Commission</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/pencil-icon.png" alt="pencil-icon" />
+              </div>
+              <p>Write More Winning Offers</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-in-icon.png" alt="dollar-in-icon" />
+              </div>
+              <p>Guaranteed to Close</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="empower__content empower__content--4">
+          <div class="empower__img">
+            <img src="./img/house.png" alt="pair near house" />
+          </div>
+          <div class="empower__text--container">
+            <p class="empower__buyers-text">Sellers</p>
+            <h3 class="heading-tertiary empower__heading">Tab 4</h3>
+            <p class="empower__text">
+              Waive common contingencies, including the home-sale contingency,
+              to allow your buyers to make their strongest offer in any market.
+            </p>
+            <a href="#!" class="btn empower__btn">Get Certified Today</a>
+          </div>
+
+          <div class="empower__icon--container">
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-icon.png" alt="dollar-icon" />
+              </div>
+              <p>Keep Your Commission</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/pencil-icon.png" alt="pencil-icon" />
+              </div>
+              <p>Write More Winning Offers</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-in-icon.png" alt="dollar-in-icon" />
+              </div>
+              <p>Guaranteed to Close</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="empower__content empower__content--5">
+          <div class="empower__img">
+            <img src="./img/house.png" alt="pair near house" />
+          </div>
+          <div class="empower__text--container">
+            <p class="empower__buyers-text">Loan officers</p>
+            <h3 class="heading-tertiary empower__heading">Tab 5</h3>
+            <p class="empower__text">
+              Waive common contingencies, including the home-sale contingency,
+              to allow your buyers to make their strongest offer in any market.
+            </p>
+            <a href="#!" class="btn empower__btn">Get Certified Today</a>
+          </div>
+
+          <div class="empower__icon--container">
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-icon.png" alt="dollar-icon" />
+              </div>
+              <p>Keep Your Commission</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/pencil-icon.png" alt="pencil-icon" />
+              </div>
+              <p>Write More Winning Offers</p>
+            </div>
+            <div class="empower__icon--item">
+              <div class="empower__icon">
+                <img src="./img/dollar-in-icon.png" alt="dollar-in-icon" />
+              </div>
+              <p>Guaranteed to Close</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="section--2">
+        <div class="testimonials">
+          <h2
+            class="heading-secondary testimonials__heading u-margin-bottom-biggest"
+          >
+            You&apos;re in good company
+          </h2>
+          <p class="testimonials__text">
+            “Ribbon is a huge advantage for you as the buyer's agent - and
+            definitely gives you the extra edge needed to have your buyer's
+            offer accepted."
+          </p>
+
+          <div class="testimonials__details">
+            <img
+              src="./img/agent-photo.jpeg"
+              alt="agent photo"
+              class="testimonials__photo"
+            />
+            <h4 class="heading-4 testimonials__name">Edgar Gonzalez</h4>
+            <p class="testimonials__company">eXp Realty</p>
+          </div>
+          <div class="testimonials__comment">
+            Agents love us because we empower their buyers with cash and don't
+            compete for their commissions.
+          </div>
+          <button class="btn-white testimonials__btn">Learn More</button>
+          <div class="testimonials__numbers">
+            <div class="testimonials__number">
+              <h5>7,000+</h5>
+              <p>Homes Purchased</p>
+            </div>
+            <div class="testimonials__number">
+              <h5>30,000+</h5>
+              <p>Agents</p>
+            </div>
+            <div class="testimonials__number">
+              <h5>$5 B+</h5>
+              <p>Buying Power</p>
+            </div>
+          </div>
+
+          <img src="./img/dog.png" alt="dog" class="testimonials__img" />
+        </div>
+      </section>
+
+      <section class="section-solution" id="section--3">
+        <div class="solution">
+          <h2
+            class="heading-secondary solution__heading u-margin-bottom-smallest"
+          >
+            Our solutions
+          </h2>
+          <div class="solution__btn-container">
+            <button
+              class="solution__btn solution__btn--active"
+              data-solution="0"
+            >
+              Turn an offer to all cash
+            </button>
+            <button class="solution__btn" data-solution="1">
+              Buy before you sell
+            </button>
+            <button class="solution__btn" data-solution="2">
+              Save an existing deal
+            </button>
+          </div>
+
+          <button class="slider__btn slider__btn--left">
+            <img src="./img/arrow-left.png" alt="arrow left" />
+          </button>
+          <button class="slider__btn slider__btn--right">
+            <img src="./img/arrow-right.png" alt="arrow right" />
+          </button>
+        </div>
+
+        <div class="slider">
+          <div class="slide slide--1">
+            <div class="story">
+              <div class="story__left-side">
+                <div class="story__left-side--img-part">
+                  <div class="story__img">
+                    <img src="./img/family.png" alt="family" />
+                  </div>
+                  <div class="story__logo">
+                    <img src="./img/slide-logo.png" alt="logo" />
+                  </div>
+                  <p class="story__location">Orlando, Fl</p>
+                </div>
+
+                <div class="story__left-side--text-part">
+                  <p class="story__homewon">home won with</p>
+                  <div class="story__logo--2">
+                    <img src="./img/slide-logo-2.png" alt="logo" />
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The buyer</h5>
+                    <p>won her dream house in multiple-offers situation.</p>
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The seller</h5>
+                    <p>got a guaranteed closing with no contingencies.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="story__right-side">
+                <h4 class="story__heading">Turn an offer to all cash</h4>
+                <p class="story__text">
+                  Once your buyer is preapproved, upgrade your buying power to
+                  cash to make your strongest offer, first.
+                </p>
+                <button class="btn-white story__btn u-margin-bottom-biggest-1">
+                  Learn more
+                </button>
+                <div class="story__icon">
+                  <img src="./img/read-icon.png" alt="icon" />
+                  <p>Read the success story</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide--2">
+            <div class="story">
+              <div class="story__left-side">
+                <div class="story__left-side--img-part">
+                  <div class="story__img">
+                    <img src="./img/family.png" alt="family" />
+                  </div>
+                  <div class="story__logo">
+                    <img src="./img/slide-logo.png" alt="logo" />
+                  </div>
+                  <p class="story__location">Orlando, Fl</p>
+                </div>
+
+                <div class="story__left-side--text-part">
+                  <p class="story__homewon">home won with</p>
+                  <div class="story__logo--2">
+                    <img src="./img/slide-logo-2.png" alt="logo" />
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The buyer</h5>
+                    <p>won her dream house in multiple-offers situation.</p>
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The seller</h5>
+                    <p>got a guaranteed closing with no contingencies.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="story__right-side">
+                <h4 class="story__heading">Buy before you sell</h4>
+                <p class="story__text">
+                  Once your buyer is preapproved, upgrade your buying power to
+                  cash to make your strongest offer, first.
+                </p>
+                <button class="btn-white story__btn u-margin-bottom-biggest-1">
+                  Learn more
+                </button>
+                <div class="story__icon">
+                  <img src="./img/read-icon.png" alt="icon" />
+                  <p>Read the success story</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide--3">
+            <div class="story">
+              <div class="story__left-side">
+                <div class="story__left-side--img-part">
+                  <div class="story__img">
+                    <img src="./img/family.png" alt="family" />
+                  </div>
+                  <div class="story__logo">
+                    <img src="./img/slide-logo.png" alt="logo" />
+                  </div>
+                  <p class="story__location">Orlando, Fl</p>
+                </div>
+
+                <div class="story__left-side--text-part">
+                  <p class="story__homewon">home won with</p>
+                  <div class="story__logo--2">
+                    <img src="./img/slide-logo-2.png" alt="logo" />
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The buyer</h5>
+                    <p>won her dream house in multiple-offers situation.</p>
+                  </div>
+                  <div class="story__text-container">
+                    <h5>The seller</h5>
+                    <p>got a guaranteed closing with no contingencies.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="story__right-side">
+                <h4 class="story__heading">Save an existing deal</h4>
+                <p class="story__text">
+                  Once your buyer is preapproved, upgrade your buying power to
+                  cash to make your strongest offer, first.
+                </p>
+                <button class="btn-white story__btn u-margin-bottom-biggest-1">
+                  Learn more
+                </button>
+                <div class="story__icon">
+                  <img src="./img/read-icon.png" alt="icon" />
+                  <p>Read the success story</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dots"></div>
+        </div>
+      </section>
+
+      <section class="section-app" id="section--4">
+        <div class="app">
+          <div class="app__description">
+            <h2 class="app__heading">Everything you need is only a tap away</h2>
+            <p class="app__text">
+              Ribbon let’s you write an offer anytime, anywhere — right from
+              your mobile device.
+            </p>
+            <div class="app__store--logo">
+              <img src="./img/app-store.png" alt="app store" />
+            </div>
+          </div>
+          <div class="app__img">
+            <img src="./img/iphone.png" alt="Phone" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer__navigation">
+          <a href="#!" class="footer__logo"
+            ><img src="./img/footer-logo--1.png" alt="logo"
+          /></a>
+
+          <nav class="footer__col">
+            <p class="footer__heading">Agents</p>
+            <ul class="footer__nav">
+              <li><a href="#!" class="footer__link">Buying</a></li>
+              <li><a href="#!" class="footer__link">Listing</a></li>
+              <li><a href="#!" class="footer__link">iOS App</a></li>
+              <li><a href="#!" class="footer__link">Get Certified</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col">
+            <p class="footer__heading">Homebuyers</p>
+            <ul class="footer__nav">
+              <li><a href="#!" class="footer__link">Buyers</a></li>
+              <li><a href="#!" class="footer__link">Buy Before You Sell</a></li>
+              <li><a href="#!" class="footer__link">New Construction</a></li>
+              <li><a href="#!" class="footer__link">Rescue Your Closing</a></li>
+              <li><a href="#!" class="footer__link">Sellers</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col">
+            <p class="footer__heading">Partners</p>
+            <ul class="footer__nav">
+              <li><a href="#!" class="footer__link">Lenders</a></li>
+              <li><a href="#!" class="footer__link">Builders</a></li>
+              <li><a href="#!" class="footer__link">Brokerages</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col">
+            <p class="footer__heading">Resources</p>
+            <ul class="footer__nav">
+              <li><a href="#!" class="footer__link">Pricing</a></li>
+              <li><a href="#!" class="footer__link">FAQs</a></li>
+              <li><a href="#!" class="footer__link">How it works</a></li>
+              <li><a href="#!" class="footer__link">Blog</a></li>
+              <li><a href="#!" class="footer__link">Guides</a></li>
+              <li><a href="#!" class="footer__link">Webinars</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col">
+            <p class="footer__heading">About</p>
+            <ul class="footer__nav">
+              <li><a href="#!" class="footer__link">Mission</a></li>
+              <li><a href="#!" class="footer__link">Culture</a></li>
+              <li><a href="#!" class="footer__link">Careers</a></li>
+              <li><a href="#!" class="footer__link">Press</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__logos">
+          <div class="footer__logo-secondary">
+            <img src="./img/footer-logo--2.png" alt="logo" />
+            <p class="footer__click-review">Click for Review</p>
+          </div>
+          <div class="footer__text">
+            <div>
+              <p class="footer__text--terms">Terms</p>
+              <p class="footer__text--privacy">Privacy</p>
+            </div>
+            <p class="footer__text--copyright">
+              Copyright <span class="year">2027</span> Ribbon Home Inc, All
+              Rights Reserved.
+            </p>
+          </div>
+          <div class="footer__socials">
+            <img src="./img/facebook-icon.png" alt="facebook icon" />
+            <img src="./img/instagram-icon.png" alt="instagram icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

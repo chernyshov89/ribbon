@@ -1,0 +1,141 @@
+.empower {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0rem 6rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 0rem 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 0rem 1rem;
+  }
+
+  &__tab-container {
+    @include flex;
+    gap: 2.6rem;
+    flex-wrap: wrap;
+
+    margin-bottom: 5.5rem;
+  }
+
+  &__content {
+    display: none;
+  }
+
+  &__content--active {
+    background-color: var(--color-white);
+    padding: 7.4rem 7.4rem 6.3rem 7.4rem;
+    margin: 0 auto;
+    max-width: 108rem;
+    border-radius: 1.9rem 1.9rem 0 0;
+
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: repeat(2, min-content);
+
+    gap: 8.5rem;
+    justify-items: center;
+    align-items: start;
+    justify-content: center;
+    align-content: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: 1fr;
+      padding: 3.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 1rem;
+    }
+  }
+
+  &__text--container {
+    padding-top: 3.3rem;
+    border-top: 1px solid var(--color-grey-8);
+  }
+
+  &__icon--container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15rem;
+    transform: translateX(1%);
+    grid-column: 1/-1;
+    padding-top: 6.5rem;
+    border-top: 1px solid var(--color-grey-8);
+
+    @media only screen and (max-width: $bp-medium) {
+      gap: 3rem;
+    }
+  }
+
+  &__img {
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 70%;
+  }
+
+  &__buyers-text {
+    font-size: 1.6rem;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    margin-bottom: 9.7rem;
+    color: var(--color-primary-light-2);
+  }
+
+  &__heading {
+    line-height: 1.25;
+    margin-bottom: 3.2rem;
+  }
+
+  &__text {
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: var(--color-grey-1);
+    margin-bottom: 3rem;
+  }
+
+  &__icon--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+    max-width: 21rem;
+
+    p {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      color: var(--color-primary);
+      line-height: 1.2;
+      text-align: center;
+    }
+  }
+
+  &__icon {
+    height: 7rem;
+    width: 7rem;
+    background-color: var(--color-primary);
+    @include flex;
+
+    @media only screen and (max-width: $bp-medium) {
+      height: 3rem;
+      width: 3rem;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+
+      @media only screen and (max-width: $bp-medium) {
+        max-width: 70%;
+        max-height: 70%;
+      }
+    }
+  }
+}
